@@ -20,8 +20,7 @@ public class Task1 {
 		b = Float.parseFloat(numbers[1]);
 		geometryAverage = (float)Math.sqrt(a * b); 
 		
-		System.out.printf("%f", geometryAverage);
-		System.out.println();
+		System.out.printf("%f\n", geometryAverage);
 		System.out.printf("%e", geometryAverage);
 	}
 	
